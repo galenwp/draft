@@ -1,0 +1,45 @@
+{
+  "name": "draft",
+  "version": "0.0.1",
+  "author": "Ost <team@useost.com>",
+  "description": "a socket.io utility for automatically refreshing the page",
+  "contributors": [ 
+    {
+      "name": "Joshua M. Lewis",
+      "email": "josh@useost.com"
+    },
+    {
+      "name": "Galen Wolfe-Pauly",
+      "email": "galen@useost.com"
+    }
+  ],
+  "bin": {
+    "collate": "./bin/draft"
+  },
+  "scripts": {
+    "start": "node ./bin/draft"
+  },
+  "main": "./lib/draft",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwpauly/draft.git"
+  },
+  "keywords": [
+    "javascript",
+    "coffeescript",
+    "css",
+    "less"
+  ],
+  "dependencies": {
+    "socket.io": "0.9.x"
+  },
+  "noAnalyze": true,
+  "devDependencies": {
+  },
+  "bundleDependencies": [
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
