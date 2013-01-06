@@ -28,6 +28,6 @@ app.configure('development', function(){
 And like this on the client:
 
 ```html
-<script type="text/javascript", src="/socket.io/socket.io.js" />
-<script type="text/javascript", src="/javascripts/draft-client.js" />
+<script type="text/javascript" src="/socket.io/socket.io.js" />
+<script type="text/javascript" src="/javascripts/draft-client.js" />
 ```
