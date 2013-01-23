@@ -2,7 +2,7 @@
   "name": "draft",
   "version": "0.0.1",
   "author": "Ost <team@useost.com>",
-  "description": "a socket.io utility for automatically refreshing the page",
+  "description": "a socket.io utility for automatically performing actions on a client page",
   "contributors": [ 
     {
       "name": "Joshua M. Lewis",
@@ -13,12 +13,6 @@
       "email": "galen@useost.com"
     }
   ],
-  "bin": {
-    "collate": "./bin/draft"
-  },
-  "scripts": {
-    "start": "node ./bin/draft"
-  },
   "main": "./lib/draft",
   "repository": {
     "type": "git",
