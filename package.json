@@ -2,12 +2,8 @@
   "name": "draft",
   "version": "0.0.1",
   "author": "Ost <team@useost.com>",
-  "description": "a socket.io utility for automatically performing actions on a client page",
+  "description": "a socket.io utility for automatically performing actions on a client based on change in the filesystem",
   "contributors": [ 
-    {
-      "name": "Joshua M. Lewis",
-      "email": "josh@useost.com"
-    },
     {
       "name": "Galen Wolfe-Pauly",
       "email": "galen@useost.com"
