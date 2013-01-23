@@ -5,6 +5,7 @@ Draft is a simple node module for triggering changes on the client after files c
 
 In an Express app draft looks something like this on the server:
 
+```js
 var draft = require('draft');
 
 app.configure('development', function(){
@@ -22,8 +23,11 @@ app.configure('development', function(){
 	});
 	draft.route(app)
 });
+```
 
 And like this on the client:
 
-script(type="text/javascript", src="/socket.io/socket.io.js")
-script(type="text/javascript", src="/javascripts/draft-client.js")
+```html
+<script type="text/javascript" src="/socket.io/socket.io.js" />
+<script type="text/javascript" src="/javascripts/draft-client.js" />
+```
