@@ -9,7 +9,8 @@ In an Express app draft looks something like this on the server:
 var draft = require('draft');
 
 app.configure('development', function(){
-	draft.listen(__dirname, app, {
+	draft.listen(__dirname, app, "http://localhost:3000",
+			{
 			refresh: {
 				files:['/public/javascripts/main.js'],
 				data:true
@@ -19,7 +20,6 @@ app.configure('development', function(){
 				data:{message:'the other file changed'}
 			}
 	});
-	draft.route(app)
 });
 ```
 
