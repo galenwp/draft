@@ -1,4 +1,4 @@
-Tsdraft
+draft
 =====
 
 Draft is a simple node module for triggering changes on the client after files change on the server. Draft isn't intended for use in production. Draft is meant to be a tool for speeding up development.
